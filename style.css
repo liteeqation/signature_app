@@ -1,0 +1,29 @@
+.canvas{
+    border: 3px solid black;
+}
+.header, .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px 0 20px 0;
+
+}
+.color_picker, input, button, select{
+    width: 80%;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.header>.color_picker{
+    margin: 10px;
+}
+.bottom>button{
+    margin: 10px;
+}
+.color_picker>p{
+    margin: 10px;
+}
